@@ -121,7 +121,7 @@ input[type="text"] {
 
 @media screen and (max-width: 768px) {
   body {
-    background-image: url("assets/backgroundImage.jpg");
+    background-image: url("/assets/backgroundImage.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
