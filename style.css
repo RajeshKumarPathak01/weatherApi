@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: rgb(14, 12, 12);
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border: none;
+  outline: none;
+  text-transform: capitalize;
+}
+
+body {
+  background-image: url("assets/backgroundImage.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+#container {
+  height: 550px;
+  width: 400px;
+  position: absolute;
+  top: 18%;
+  left: 35%;
+  background-color: white;
+  border-radius: 22px;
+}
+
+#head {
+  height: 12px;
+  width: 339px;
+  display: flex;
+  padding: 4px 10px 25px 28px;
+  border-radius: 10px;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.652);
+  box-sizing: content-box;
+  background-color: #baf2f5;
+  margin: 15px 19px 4px 10px;
+}
+
+input[type="text"] {
+  height: 34px;
+  width: 194px;
+  text-align: center;
+  border-radius: 9px;
+  margin-right: 10px;
+  font-size: large;
+  border-style: none;
+  background-color: transparent;
+}
+
+#searchButton {
+  height: 34px;
+  width: 43px;
+  font-size: large;
+  background-color: rgba(59, 57, 57, 0);
+}
+#searchButton:hover {
+  height: 38px;
+  width: 48px;
+  font-size: large;
+  background-color: rgba(9, 8, 8, 0, 0.2);
+}
+
+#weatherBody {
+  margin-block: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#imageBox {
+  height: 249px;
+  width: 60%;
+  align-items: center;
+  background-image: url(assets/clear.png);
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#weatherBox {
+  margin-block: 20px;
+  font-size: 26px;
+  font-weight: bolder;
+}
+
+#weatherDetails {
+  width: 100%;
+  display: flex;
+  font-weight: bolder;
+  font-size: 35px;
+  justify-content: space-around;
+}
+
+#weatherHumidity,
+#windspeedClass {
+  display: flex;
+  margin-top: 25px;
+  margin-left: 12px;
+}
+
+#text {
+  text-align: left;
+  font-size: 18px;
+}
+
+#weatherDetails i {
+  font-size: 35px;
+  margin: 6px;
+}
+
+#humidityValue,
+#windspeedValue {
+  font-size: 35px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  body {
+    background-image: url("assets/backgroundImage.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  #container {
+    height: 48%;
+    width: 57%;
+    position: absolute;
+    top: 7%;
+    left: 2%;
+    background-color: white;
+    border-radius: 22px;
+  }
+
+  #head {
+    height: 4%;
+    width: 78%;
+    display: flex;
+    padding: 4px 10px 25px 28px;
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.652);
+    box-sizing: content-box;
+    background-color: #baf2f5;
+    margin: 15px 19px 4px 10px;
+  }
+
+  input[type="text"] {
+    height: 114%;
+    width: 98%;
+    text-align: center;
+    border-radius: 9px;
+    margin-right: 10px;
+    font-size: 20px;
+    border-style: none;
+    background-color: transparent;
+    font-style: italic;
+    font-weight: normal;
+  }
+
+  #searchButton {
+    height: 34px;
+    width: 43px;
+    font-size: large;
+    background-color: rgba(59, 57, 57, 0);
+  }
+  #searchButton:hover {
+    height: 38px;
+    width: 48px;
+    font-size: large;
+    background-color: rgba(9, 8, 8, 0, 0.2);
+  }
+
+  #weatherBody {
+    margin-block: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #imageBox {
+    height: 249px;
+    width: 60%;
+    align-items: center;
+    background-image: url(assets/clear.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  #weatherBox {
+    margin-block: 20px;
+    font-size: 26px;
+    font-weight: bolder;
+  }
+
+  #weatherDetails {
+    width: 99%;
+    display: flex;
+    font-weight: 500;
+    font-size: 19px;
+    justify-content: space-around;
+  }
+
+  #weatherHumidity,
+  #windspeedClass {
+    display: flex;
+    margin-top: 25px;
+    margin-left: 12px;
+  }
+
+  #text {
+    text-align: left;
+    font-size: 18px;
+  }
+
+  #weatherDetails i {
+    font-size: 35px;
+    margin: 6px;
+  }
+
+  #humidityValue,
+  #windspeedValue {
+    font-size: 17px;
+  }
+}
