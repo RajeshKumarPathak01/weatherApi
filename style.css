@@ -50,7 +50,6 @@ input[type="text"] {
   font-size: large;
   border-style: none;
   background-color: transparent;
-  
 }
 
 #searchButton {
@@ -132,12 +131,13 @@ input[type="text"] {
 
   #container {
     height: 74%;
-        width: 95%;
-        position: absolute;
-        top: 7%;
-        left: 2%;
-        background-color: white;
-        border-radius: 22px;
+    width: 95%;
+    position: absolute;
+    
+    top: 7%;
+    left: 2%;
+    background-color: white;
+    border-radius: 22px;
   }
 
   #head {
@@ -155,16 +155,16 @@ input[type="text"] {
 
   input[type="text"] {
     height: 114%;
-        width: 98%;
-        text-align: center;
-        border-radius: 9px;
-        margin-right: 10px;
-        font-size: 20px;
-        border-style: none;
-        background-color: transparent;
-        font-style: italic;
-        font-weight: normal;
-        margin-top: 10px;
+    width: 98%;
+    text-align: center;
+    border-radius: 9px;
+    margin-right: 10px;
+    font-size: 20px;
+    border-style: none;
+    background-color: transparent;
+    font-style: italic;
+    font-weight: normal;
+    margin-top: 10px;
   }
 
   #searchButton {
